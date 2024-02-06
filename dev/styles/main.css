@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  background-color: #f39c12;
+  color: #d35400;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+body {
+  background-color: #f1c40f;
+  color: #d35400;
+}

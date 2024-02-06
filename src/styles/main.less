@@ -1,0 +1,30 @@
+@defaultFont: sans-serif;
+
+@headerColor: #f39c12;
+@bodyColor: #f1c40f;
+@textColor: #d35400;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: @defaultFont;
+}
+
+.container {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: @headerColor;
+    color: @textColor;
+    padding: 16px;
+    margin-bottom: 14px;
+}
+
+body {
+    background-color: @bodyColor;
+    color: @textColor;
+}
